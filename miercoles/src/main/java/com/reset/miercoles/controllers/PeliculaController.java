@@ -48,6 +48,7 @@ public class PeliculaController {
         return peliculasServicio.consultarUnaPelicula(id);
     }
 
+
     @DeleteMapping("/borrarPeliculaId/{id}")
     public void borrarId(@PathVariable UUID id) {
         peliculasServicio.borrarPelicula(id);

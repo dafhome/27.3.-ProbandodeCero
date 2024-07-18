@@ -49,6 +49,7 @@ public class Peliculas {
     protected void onUpdate() {
         fechaActualizacion = LocalDateTime.now();
     }
+
     
     //Esto se sustituye con la dependencia Lombok mediante las anotaciones @Data+@AllArgsConstructor+@NoArgsConstructor
     //constructor vacio

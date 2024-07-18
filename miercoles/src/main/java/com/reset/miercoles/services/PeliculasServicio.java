@@ -1,5 +1,6 @@
 package com.reset.miercoles.services;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -24,6 +25,7 @@ public class PeliculasServicio {
     public Optional<Peliculas> consultarUnaPelicula(UUID id){
         return peliculaRepositorio.findById(id);
     }
+
 
     public Peliculas registrarPelicula(Peliculas pelicula){
         System.out.println("Pelicula creada correctamente.");

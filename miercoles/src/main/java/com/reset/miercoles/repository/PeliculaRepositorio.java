@@ -10,6 +10,5 @@ import com.reset.miercoles.entity.Peliculas;
 
 public interface PeliculaRepositorio extends JpaRepository<Peliculas, UUID> {
     
-    //Se pueden añadir extra métodos si los necesitamos
 
 }
